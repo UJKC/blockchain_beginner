@@ -1,11 +1,11 @@
 class Block{
-    constructor({timestamp, last_hash, data, hash}){
+    constructor({timestamp, lastHash, data, hash}){
         this.timestamp = timestamp;
-        this.last_hash = last_hash;
+        this.lastHash = lastHash;
         this.data = data;
         this.hash = hash;
     }
 }
-const Block1 = new Block({timestamp: '01', last_hash: 'foo-last', data: 'foo-data', hash: 'foo-hash'});
+//const Block1 = new Block({timestamp: '01', last_hash: 'foo-last', data: 'foo-data', hash: 'foo-hash'});
 
-console.log(Block1)
+module.exports = Block;
