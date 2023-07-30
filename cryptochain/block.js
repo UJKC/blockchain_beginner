@@ -8,18 +8,18 @@ class Block{
         this.hash = hash;
     }
 
-    static genesis(){
+    static genesis() {
         return new this(GENESIS_DATA);
-    }
-
-    static myBlock({ lastBlock, data }){
+      }
+    
+      static mineBlock({ lastBlock, data }) {
         return new this({
-            timestamp: Date.now(),
-            lastHash: lastBlock.hash,
-            data
+          timestamp: Date.now(),
+          lastHash: lastBlock.hash,
+          data
         });
+      }
     }
-}
 //const Block1 = new Block({timestamp: '01', last_hash: 'foo-last', data: 'foo-data', hash: 'foo-hash'});
 //console.log("BLOCK!", Block1)
 
