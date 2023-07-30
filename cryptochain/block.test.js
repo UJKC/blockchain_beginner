@@ -22,7 +22,7 @@ describe('Block', () => {
   });
 
   //test genesis data feature
-  describe('genesis', () =>{
+  describe('genesis()', () =>{
     const genesisBlock = Block.genesis();
 
     it('return a block data same as genesis', () => {
@@ -31,6 +31,29 @@ describe('Block', () => {
 
     it('Same genesis block is same as genesis block', () => {
       expect(genesisBlock).toEqual(GENESIS_DATA)
+    });
+  });
+
+  //miners block that is added every time
+  describe('mineBlock', () => {
+    const lastBlock = Block.genesis();
+    const data = 'mined data';
+    const minedBlock = Block.mineBlock({ lastBlock, data });
+
+    it('returns a Block instance', () => {
+      expect(minedBlock instanceof Block).toBe(true);
+    });
+
+    it('sets the `lastHash` to be the `hash` of the lastBlock', () => {
+      expect(minedBlock.lastHash).toEqual(lastBlock.hash);
+    });
+
+    it('sets the `data`', () => {
+      expect(minedBlock.data).toEqual(data);
+    });
+
+    it('sets a `timestamp`', () => {
+      expect(minedBlock.timestamp).not.toEqual(undefined);
     });
   });
 });
