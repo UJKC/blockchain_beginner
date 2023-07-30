@@ -1,34 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690733357154" clover="3.2.0">
-  <project timestamp="1690733357154" name="All files">
-    <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="23" coveredelements="23" complexity="0" loc="19" ncloc="19" packages="1" files="3" classes="3"/>
+<coverage generated="1690742203385" clover="3.2.0">
+  <project timestamp="1690742203385" name="All files">
+    <metrics statements="41" coveredstatements="41" conditionals="10" coveredconditionals="10" methods="8" coveredmethods="8" elements="59" coveredelements="59" complexity="0" loc="41" ncloc="41" packages="1" files="4" classes="4"/>
     <file name="block.js" path="C:\Users\UdaiKC\Desktop\blockchain_beginner\cryptochain\block.js">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="6" count="47" type="stmt"/>
+      <line num="7" count="47" type="stmt"/>
+      <line num="8" count="47" type="stmt"/>
+      <line num="9" count="47" type="stmt"/>
+      <line num="13" count="29" type="stmt"/>
+      <line num="17" count="17" type="stmt"/>
+      <line num="18" count="17" type="stmt"/>
+      <line num="19" count="17" type="stmt"/>
+      <line num="30" count="2" type="stmt"/>
+    </file>
+    <file name="blockchain.js" path="C:\Users\UdaiKC\Desktop\blockchain_beginner\cryptochain\blockchain.js">
+      <metrics statements="22" coveredstatements="22" conditionals="10" coveredconditionals="10" methods="4" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
-      <line num="6" count="4" type="stmt"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="8" count="4" type="stmt"/>
-      <line num="9" count="4" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="30" count="1" type="stmt"/>
+      <line num="6" count="20" type="stmt"/>
+      <line num="10" count="16" type="stmt"/>
+      <line num="15" count="16" type="stmt"/>
+      <line num="19" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="5" type="stmt"/>
+      <line num="22" count="12" type="stmt"/>
+      <line num="24" count="12" type="stmt"/>
+      <line num="26" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="11" type="stmt"/>
+      <line num="30" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="33" count="2" type="stmt"/>
+      <line num="37" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="43" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="44" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
     </file>
     <file name="config.js" path="C:\Users\UdaiKC\Desktop\blockchain_beginner\cryptochain\config.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
     </file>
     <file name="crypto-hash.js" path="C:\Users\UdaiKC\Desktop\blockchain_beginner\cryptochain\crypto-hash.js">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="1" count="2" type="stmt"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="4" count="5" type="stmt"/>
-      <line num="7" count="5" type="stmt"/>
-      <line num="10" count="5" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="32" type="stmt"/>
+      <line num="7" count="32" type="stmt"/>
+      <line num="10" count="32" type="stmt"/>
+      <line num="13" count="3" type="stmt"/>
     </file>
   </project>
 </coverage>
